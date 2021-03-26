@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring_ioc:war exploded">
+    <output-path>$PROJECT_DIR$/spring_aop/artifacts/spring_ioc_war_exploded</output-path>
+    <root id="archive" name="spring_ioc_war exploded.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring_ioc" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.5.RELEASE" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="spring_ioc/web/Web" />
+    </root>
+  </artifact>
+</component>
